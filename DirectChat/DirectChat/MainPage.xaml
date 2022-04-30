@@ -18,9 +18,10 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Frame Margin="0, 5" BackgroundColor="#495159" CornerRadius="40">
+                            <!---Old Colour: #495159-->
+                            <Frame Margin="0, 1" BackgroundColor="#1E212B" CornerRadius="0">
                                 <StackLayout Orientation="Horizontal">
-                                    <Frame  BackgroundColor="#FF9B42" CornerRadius="100" BorderColor="#FF9B42">
+                                    <Frame  BackgroundColor="#FF9B42" CornerRadius="30" HeightRequest="5" WidthRequest="5" BorderColor="#FF9B42" Margin="0, 0, 20, 0">
                                     </Frame>
 
                                     <StackLayout>
