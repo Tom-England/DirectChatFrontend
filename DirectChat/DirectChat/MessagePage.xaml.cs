@@ -17,7 +17,12 @@ namespace DirectChat
             NavigationPage.SetHasNavigationBar(this, false);
             NavigationPage.SetHasBackButton(this, false);
             InitializeComponent();
-            welcome.Text = "Welcome " + name;
+            welcome.Text = name;
+        }
+
+        private void submit_Clicked(object sender, EventArgs e)
+        {
+            entry.Text = "";
         }
     }
 }

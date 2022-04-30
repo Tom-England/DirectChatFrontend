@@ -4,5 +4,6 @@
     <SelectedDevice>Samsung SM-G960F</SelectedDevice>
     <ActiveDebugProfile>Samsung SM-G960F</ActiveDebugProfile>
     <DefaultDevice>pixel_5_-_api_30</DefaultDevice>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

@@ -627,3 +627,8 @@ E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\sta
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\res\mipmap-hdpi\ic_launcher.png
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\res\mipmap-mdpi\ic_launcher.png
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\res\mipmap-xhdpi\ic_launcher.png
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\res\mipmap-xxhdpi\ic_launcher.png
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\res\mipmap-xxxhdpi\ic_launcher.png

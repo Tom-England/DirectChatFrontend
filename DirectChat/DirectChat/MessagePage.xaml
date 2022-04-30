@@ -1,14 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DirectChat.MessagePage">
+             x:Class="DirectChat.MessagePage"
+             BackgroundColor="#1E212B">
     <ContentPage.Content>
         <StackLayout>
-            <Label 
+
+            <StackLayout VerticalOptions="Start"
+                         Padding="60,20,20,20">
+                <Label 
                 x:Name="welcome"
-                Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                Text=""
+                FontSize="Large"
+                TextColor="#FFFFFF" />
+            </StackLayout>
+            <StackLayout VerticalOptions="CenterAndExpand">
+                
+            </StackLayout>
+            <StackLayout VerticalOptions="End"
+                         Padding="10">
+                <Frame BackgroundColor="#495159"
+                       CornerRadius="40">
+                    <StackLayout Orientation="Horizontal">
+                        <Entry x:Name="entry" MaxLength="160" WidthRequest="250" />
+                        <Button x:Name="submit" CornerRadius="25" WidthRequest="50" HeightRequest="50" BackgroundColor="#00A7E1" Clicked="submit_Clicked"/>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
