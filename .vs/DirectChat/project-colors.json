@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "717bb679-e396-4672-9e70-ed4c6afa2bd4": {
+      "ProjectGuid": "717bb679-e396-4672-9e70-ed4c6afa2bd4",
+      "DisplayName": "DirectChat",
+      "ColorIndex": 0
+    },
+    "757c8141-92e2-48f9-b2f4-26a8b3af7a3d": {
+      "ProjectGuid": "757c8141-92e2-48f9-b2f4-26a8b3af7a3d",
+      "DisplayName": "DirectChat.Android",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

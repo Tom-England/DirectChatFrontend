@@ -1,0 +1,15 @@
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\bin\Debug\netstandard2.0\DirectChat.deps.json
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\bin\Debug\netstandard2.0\DirectChat.dll
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\bin\Debug\netstandard2.0\ref\DirectChat.dll
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\bin\Debug\netstandard2.0\DirectChat.pdb
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\DirectChat.csproj.AssemblyReference.cache
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\DirectChat.GeneratedMSBuildEditorConfig.editorconfig
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\DirectChat.AssemblyInfoInputs.cache
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\DirectChat.AssemblyInfo.cs
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\DirectChat.csproj.CoreCompileInputs.cache
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\XamlC.stamp
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\DirectChat.dll
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\ref\DirectChat.dll
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\DirectChat.pdb

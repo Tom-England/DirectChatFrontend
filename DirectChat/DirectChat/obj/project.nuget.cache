@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "QLAYOeUekBkKMtiq/JYPjHOmpKqQuoyV4LmUhWNKnaUH2dxKGrM/f45xmqzhn85B0goHp4WvwKtdOQ8GtVJTGQ==",
+  "success": true,
+  "projectFilePath": "E:\\DirectChatFrontend\\DirectChat\\DirectChat\\DirectChat\\DirectChat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tomen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\tomen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\tomen\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\tomen\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\tomen\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
