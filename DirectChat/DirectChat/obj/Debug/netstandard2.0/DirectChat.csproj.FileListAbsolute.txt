@@ -13,3 +13,4 @@ E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\DirectChat.dll
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\ref\DirectChat.dll
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\DirectChat.pdb
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat\obj\Debug\netstandard2.0\MessagePage.xaml.g.cs

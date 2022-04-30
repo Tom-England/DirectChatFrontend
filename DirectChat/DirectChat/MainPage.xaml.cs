@@ -12,10 +12,17 @@ namespace DirectChat
     {
         public MainPage()
         {
+            NavigationPage.SetHasNavigationBar(this, false);
+            NavigationPage.SetHasBackButton(this, false);
             InitializeComponent();
             BindingContext = new UserListModel();
-            
+
         }
 
+        async private void ListView_ItemSelected(object sender, ItemTappedEventArgs e)
+        {
+            var data_item = e.Item as UserFake;
+            await Navigation.PushAsync(new DirectChat.MessagePage(data_item.Name));
+        }
     }
 }

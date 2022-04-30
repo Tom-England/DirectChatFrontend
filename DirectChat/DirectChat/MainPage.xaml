@@ -14,7 +14,7 @@
                TextColor="#FFFFFF"
                Margin="0, 0, 50, 0"></Label>
 
-            <ListView ItemsSource="{Binding Users}" HasUnevenRows="True" SeparatorVisibility="None" SelectionMode="None">
+            <ListView ItemsSource="{Binding Users}" HasUnevenRows="True" SeparatorVisibility="None" SelectionMode="None" ItemTapped="ListView_ItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
