@@ -44,10 +44,18 @@ namespace DirectChat
         {
             while (true)
             {
-                can_send = false;
-                c.check_messages(c, user.Id);
-                can_send = true;
-                Thread.Sleep(1000);
+                try
+                {
+                    can_send = false;
+                    c.check_messages(c, user.Id);
+                    can_send = true;
+                    Thread.Sleep(1000);
+                } catch (System.IO.IOException e)
+                {
+                    App.target_ip = "not set";
+                    break;
+                }
+                
             }
         }
     }
