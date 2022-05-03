@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Threading;
 
 namespace DirectChat
 {
@@ -21,8 +22,58 @@ namespace DirectChat
 
         async private void ListView_ItemSelected(object sender, ItemTappedEventArgs e)
         {
-            var data_item = e.Item as UserFake;
-            await Navigation.PushAsync(new DirectChat.MessagePage(data_item.Name));
+            var data_item = (UserFake)e.Item;
+            await Navigation.PushAsync(new MessagePage(data_item.Name, Guid.Parse(data_item.Id)));
+        }
+
+        private void AddMaster_Clicked(object sender, EventArgs e)
+        {
+            if (App.target_ip == "not set")
+            {
+                AddUser.BackgroundColor = Color.Gray;
+                AddUser.IsEnabled = false;
+            } else
+            {
+                AddUser.BackgroundColor = Color.FromHex("#00A7E1");
+                AddUser.IsEnabled = true;
+            }
+            AddUser.IsVisible = !AddUser.IsVisible;
+            AddServer.IsVisible = !AddServer.IsVisible;
+        }
+
+        private void Cancel_Input(object sender, EventArgs e)
+        {
+            UserField.IsVisible = false;
+            ServerField.IsVisible = false;
+            AddServer.IsVisible = false;
+            AddUser.IsVisible = false;
+        }
+
+        private void AddUser_Clicked(object sender, EventArgs e)
+        {
+            UserField.IsVisible = true;
+        }
+
+        private void AddServer_Clicked(object sender, EventArgs e)
+        {
+            ServerField.IsVisible = true;
+        }
+
+        private void UserSubmit_Clicked(object sender, EventArgs e)
+        {
+            return;
+        }
+
+        private void ServerSubmit_Clicked(object sender, EventArgs e)
+        {
+            App.target_ip = ServerEntry.Text;
+            App.c.create_client(App.target_ip);
+            App.c.handshake(App.c.client, App.user, App.crypto);
+            Thread thread = new Thread(start: App.run_requests);
+            thread.Start();
+            AddServer.IsVisible = false;
+            AddUser.IsVisible = false;
+            ServerField.IsVisible = false;
         }
     }
 }

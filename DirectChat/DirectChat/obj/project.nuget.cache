@@ -1,12 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "QLAYOeUekBkKMtiq/JYPjHOmpKqQuoyV4LmUhWNKnaUH2dxKGrM/f45xmqzhn85B0goHp4WvwKtdOQ8GtVJTGQ==",
+  "dgSpecHash": "wfwBBiTa7VM9XPiDHjQEyCGxJsVl1oYDevVm3Svob+jfBQgs688lYNpf+gmZnTqM8/lHzuQPCCILV0lB9EZr1w==",
   "success": true,
   "projectFilePath": "E:\\DirectChatFrontend\\DirectChat\\DirectChat\\DirectChat\\DirectChat.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tomen\\.nuget\\packages\\microsoft.data.sqlite\\6.0.4\\microsoft.data.sqlite.6.0.4.nupkg.sha512",
+    "C:\\Users\\tomen\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.4\\microsoft.data.sqlite.core.6.0.4.nupkg.sha512",
     "C:\\Users\\tomen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\tomen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\tomen\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\tomen\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "C:\\Users\\tomen\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\tomen\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.6\\sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\tomen\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\tomen\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\tomen\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\tomen\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\tomen\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\tomen\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],

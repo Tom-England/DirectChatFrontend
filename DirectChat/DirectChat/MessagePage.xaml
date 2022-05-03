@@ -15,17 +15,31 @@
                 TextColor="#FFFFFF" />
             </StackLayout>
             <StackLayout VerticalOptions="CenterAndExpand">
-                
+                <ListView ItemsSource="{Binding Messages}" HasUnevenRows="True" SeparatorVisibility="None" SelectionMode="None">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame BackgroundColor="#FF9B42"
+                                       CornerRadius="30"
+                                       Margin="15, 5, 100, 5">
+                                    <Label TextColor="#FFFFFF"
+                                        Text="{Binding Text}"/>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
             </StackLayout>
             <StackLayout VerticalOptions="End"
-                         Padding="10">
+                         Padding="10"
+                         Orientation="Horizontal">
                 <Frame BackgroundColor="#495159"
-                       CornerRadius="40">
-                    <StackLayout Orientation="Horizontal">
-                        <Entry x:Name="entry" MaxLength="160" WidthRequest="250" />
-                        <Button x:Name="submit" CornerRadius="25" WidthRequest="50" HeightRequest="50" BackgroundColor="#00A7E1" Clicked="submit_Clicked"/>
-                    </StackLayout>
+                       CornerRadius="40"
+                       HeightRequest="40">
+                    <Entry x:Name="entry" MaxLength="160" WidthRequest="230"  BackgroundColor="#495159" Placeholder="Message"/>
                 </Frame>
+                <Button x:Name="submit" WidthRequest="60" CornerRadius="30" HeightRequest="60" BackgroundColor="#00A7E1" Clicked="submit_Clicked"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
