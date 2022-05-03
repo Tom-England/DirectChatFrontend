@@ -12,6 +12,7 @@ namespace DirectChat
     public partial class MessagePage : ContentPage
     {
         Guid id;
+        MessageListModel mlm;
         struct Data
         {
             public string text { get; set; }
@@ -23,8 +24,10 @@ namespace DirectChat
             NavigationPage.SetHasNavigationBar(this, false);
             NavigationPage.SetHasBackButton(this, false);
             InitializeComponent();
-            BindingContext = new MessageListModel(id);
+            mlm = new MessageListModel(id);
+            BindingContext = mlm;
             welcome.Text = name;
+            if (App.target_ip == "not set") { submit.IsEnabled = false; }
         }
 
         internal static void send_message(object data)
@@ -35,6 +38,9 @@ namespace DirectChat
             byte[] key = App.crypto.generate_shared_secret(App.crypto.private_key, user_info.key);
             byte[] enc_str = App.crypto.encrypt(d.text.PadRight(Network.Constants.MESSAGE_SIZE), key, user_info.iv);
             App.c.send(enc_str, d.id, App.user.Id);
+            // Encrypt again using local IV for local copy
+            byte[] local_enc_str = App.crypto.encrypt(d.text.PadRight(Network.Constants.MESSAGE_SIZE), key, App.crypto.AES.IV);
+            App.c.dbh.add_message(Convert.ToBase64String(local_enc_str), d.id, true);
         }
         private void submit_Clicked(object sender, EventArgs e)
         {
@@ -48,5 +54,6 @@ namespace DirectChat
             }
             entry.Text = "";
         }
+
     }
 }

@@ -15,13 +15,13 @@
                 TextColor="#FFFFFF" />
             </StackLayout>
             <StackLayout VerticalOptions="CenterAndExpand">
-                <ListView ItemsSource="{Binding Messages}" HasUnevenRows="True" SeparatorVisibility="None" SelectionMode="None">
+                <ListView ItemsSource="{Binding Messages}" HasUnevenRows="True" SeparatorVisibility="None" SelectionMode="None" x:Name="MessageList" >
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <Frame BackgroundColor="#FF9B42"
+                                <Frame BackgroundColor="{Binding Background}"
                                        CornerRadius="30"
-                                       Margin="15, 5, 100, 5">
+                                       Margin="{Binding Margin}">
                                     <Label TextColor="#FFFFFF"
                                         Text="{Binding Text}"/>
                                 </Frame>
