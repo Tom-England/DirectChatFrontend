@@ -10,6 +10,7 @@ namespace DirectChat
         public static Network.User user;
         public static Network.Client c = new Network.Client();
         public static cryptography.CryptoHelper crypto = new cryptography.CryptoHelper();
+        public static bool can_send = true;
 
         public static string target_ip { get; set; }
         public App()
@@ -43,7 +44,9 @@ namespace DirectChat
         {
             while (true)
             {
+                can_send = false;
                 c.check_messages(c, user.Id);
+                can_send = true;
                 Thread.Sleep(1000);
             }
         }
