@@ -61,7 +61,13 @@ namespace DirectChat
 
         private void UserSubmit_Clicked(object sender, EventArgs e)
         {
-            return;
+            Guid guid;
+            if (Guid.TryParse(GuidBox.Text, out guid))
+            {
+                while (!App.can_send) { }
+                Network.User.UserTransferable uT = App.c.request_user(guid, App.c.client);
+                App.c.dbh.add_user(uT.name, uT.id, uT.key);
+            }
         }
 
         private void ServerSubmit_Clicked(object sender, EventArgs e)

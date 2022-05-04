@@ -38,6 +38,7 @@ namespace DirectChat
 
         protected override void OnResume()
         {
+            c.setup_id(user, crypto);
         }
 
         internal static void run_requests(object obj)

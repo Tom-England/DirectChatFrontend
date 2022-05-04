@@ -27,7 +27,10 @@ namespace DirectChat
             mlm = new MessageListModel(id);
             BindingContext = mlm;
             welcome.Text = name;
-            if (App.target_ip == "not set") { submit.IsEnabled = false; }
+            if (App.target_ip == "not set") { 
+                submit.IsEnabled = false; 
+                
+            }
         }
 
         internal static void send_message(object data)
