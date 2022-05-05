@@ -5,7 +5,12 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectChat.Android", "DirectChat\DirectChat.Android\DirectChat.Android.csproj", "{757C8141-92E2-48F9-B2F4-26A8B3AF7A3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectChat", "DirectChat\DirectChat\DirectChat.csproj", "{717BB679-E396-4672-9E70-ED4C6AFA2BD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectChat", "DirectChat\DirectChat\DirectChat.csproj", "{717BB679-E396-4672-9E70-ED4C6AFA2BD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3ECCC40C-2674-4840-AE69-1043FBCBBC9F}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

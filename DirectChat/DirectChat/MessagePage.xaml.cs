@@ -31,6 +31,10 @@ namespace DirectChat
                 submit.IsEnabled = false; 
                 
             }
+
+            object lastItem = MessageList.ItemsSource.Cast<object>().LastOrDefault();
+
+            MessageList.ScrollTo(lastItem, ScrollToPosition.End, false);
         }
 
         internal static void send_message(object data)

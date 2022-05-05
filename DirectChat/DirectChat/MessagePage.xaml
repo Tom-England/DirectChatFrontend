@@ -15,7 +15,7 @@
                 TextColor="#FFFFFF" />
             </StackLayout>
             <StackLayout VerticalOptions="CenterAndExpand">
-                <ListView ItemsSource="{Binding Messages}" HasUnevenRows="True" SeparatorVisibility="None" SelectionMode="None" x:Name="MessageList" >
+                <ListView ItemsSource="{Binding Messages}" HasUnevenRows="True" SeparatorVisibility="None" SelectionMode="None" x:Name="MessageList">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
