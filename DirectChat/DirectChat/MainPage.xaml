@@ -5,14 +5,31 @@
              BackgroundColor="#1E212B">
 
     <AbsoluteLayout>
-
-        <StackLayout Margin="10 ,20, 10, 0" VerticalOptions="CenterAndExpand"
-                     AbsoluteLayout.LayoutFlags="All"  
-                    AbsoluteLayout.LayoutBounds="0, 0, 1, 1" >
+        <StackLayout
+            AbsoluteLayout.LayoutFlags="All"
+            AbsoluteLayout.LayoutBounds="0, 0, 1, 0.1"
+            Margin="10 ,20, 10, 0"
+            VerticalOptions="Start"
+            Orientation="Horizontal">
             <Label Text="Messages"
                FontSize="35"
                TextColor="#FFFFFF"
                Margin="0, 0, 50, 0"></Label>
+            <Button 
+                x:Name="GetGuid"
+                Text="ID"
+                IsVisible="true"
+                TextColor="#FFFFFF"
+                BackgroundColor="#1E212B"
+                Clicked="GetGuid_Clicked">
+            </Button>
+        </StackLayout>
+        
+        <StackLayout VerticalOptions="CenterAndExpand"
+                     AbsoluteLayout.LayoutFlags="All"  
+                    AbsoluteLayout.LayoutBounds="0, 1, 1, 0.9" >
+            
+
 
             <ListView ItemsSource="{Binding Users}" HasUnevenRows="True" SeparatorVisibility="None" SelectionMode="None" ItemTapped="ListView_ItemSelected">
                 <ListView.ItemTemplate>
@@ -120,6 +137,18 @@
                 </StackLayout>
 
             </StackLayout>
+        </Frame>
+
+        <Frame
+            x:Name="Toast"
+            BackgroundColor="#495159"
+            CornerRadius="50"
+            AbsoluteLayout.LayoutFlags="PositionProportional"  
+            AbsoluteLayout.LayoutBounds=".5, .9, 180, 60"
+            IsVisible="false">
+            <Label Text="ID Copied to Clipboard"
+                   TextColor="#FFFFFF"
+                   HorizontalTextAlignment="Center"/>
         </Frame>
     </AbsoluteLayout>
 </ContentPage>

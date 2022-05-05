@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using System.Threading;
+using Xamarin.Essentials;
 
 namespace DirectChat
 {
@@ -80,6 +81,14 @@ namespace DirectChat
             AddServer.IsVisible = false;
             AddUser.IsVisible = false;
             ServerField.IsVisible = false;
+        }
+
+        private async void GetGuid_Clicked(object sender, EventArgs e)
+        {
+            Toast.IsVisible = true;
+            await Toast.FadeTo(1, 1000);
+            await Toast.FadeTo(0, 1000);
+            await Clipboard.SetTextAsync(App.user.Id.ToString());
         }
     }
 }
