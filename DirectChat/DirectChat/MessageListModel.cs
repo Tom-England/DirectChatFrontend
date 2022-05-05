@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Collections.ObjectModel;
+using Xamarin.Forms;
+
 namespace DirectChat
 {
     public class MessageListModel
@@ -10,9 +12,15 @@ namespace DirectChat
         public MessageListModel(Guid _id)
         {
             update_list(_id);
+            MessagingCenter.Subscribe<MessageController>(this, "msg", (sender) =>
+            {
+                // Do something whenever the "Hi" message is received
+                update_list(_id);
+            });
         }
         public void update_list(Guid _id)
         {
+            Messages.Clear();
             Guid id = _id;
             List<Network.Message> msg_list = App.c.dbh.get_all_messages_user(id);
             for (int i = 0; i < msg_list.Count; i++)

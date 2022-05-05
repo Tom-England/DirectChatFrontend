@@ -11,7 +11,7 @@ namespace DirectChat
         public static Network.Client c = new Network.Client();
         public static cryptography.CryptoHelper crypto = new cryptography.CryptoHelper();
         public static bool can_send = true;
-
+        public static bool new_user = false;
         public static string target_ip { get; set; }
         public App()
         {
@@ -40,15 +40,25 @@ namespace DirectChat
         {
             c.setup_id(user, crypto);
         }
-
         internal static void run_requests(object obj)
         {
+            MessageController messageController = new MessageController();  
             while (true)
             {
                 try
                 {
                     can_send = false;
-                    c.check_messages(c, user.Id);
+                    (bool, bool) result = c.check_messages(c, user.Id);
+                    if (result.Item1)
+                    {
+                        // User was added
+                        messageController.new_user_msg();
+                    }
+                    if (result.Item2)
+                    {
+                        // Message was received
+                        messageController.new_message_msg();
+                    }
                     can_send = true;
                     Thread.Sleep(1000);
                 } catch (System.IO.IOException e)

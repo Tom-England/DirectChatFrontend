@@ -44,6 +44,8 @@ namespace DirectChat
             // Encrypt again using local IV for local copy
             byte[] local_enc_str = App.crypto.encrypt(d.text.PadRight(Network.Constants.MESSAGE_SIZE), key, App.crypto.AES.IV);
             App.c.dbh.add_message(Convert.ToBase64String(local_enc_str), d.id, true);
+            MessageController messageController = new MessageController();
+            messageController.new_message_msg();
         }
         private void submit_Clicked(object sender, EventArgs e)
         {

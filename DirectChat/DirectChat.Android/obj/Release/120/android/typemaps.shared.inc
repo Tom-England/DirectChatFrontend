@@ -61,44 +61,44 @@
 	.section	.rodata.map_aname.10,"aMS",@progbits,1
 	.type	.L.map_aname.10, @object
 .L.map_aname.10:
-	.asciz	"DirectChat.Android"
-	.size	.L.map_aname.10, 19
+	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
+	.size	.L.map_aname.10, 41
 
 	.section	.rodata.map_aname.11,"aMS",@progbits,1
 	.type	.L.map_aname.11, @object
 .L.map_aname.11:
-	.asciz	"Xamarin.AndroidX.Lifecycle.LiveData.Core"
-	.size	.L.map_aname.11, 41
+	.asciz	"Xamarin.AndroidX.Legacy.Support.Core.UI"
+	.size	.L.map_aname.11, 40
 
 	.section	.rodata.map_aname.12,"aMS",@progbits,1
 	.type	.L.map_aname.12, @object
 .L.map_aname.12:
-	.asciz	"Xamarin.AndroidX.Legacy.Support.Core.UI"
-	.size	.L.map_aname.12, 40
+	.asciz	"Xamarin.AndroidX.SavedState"
+	.size	.L.map_aname.12, 28
 
 	.section	.rodata.map_aname.13,"aMS",@progbits,1
 	.type	.L.map_aname.13, @object
 .L.map_aname.13:
-	.asciz	"Xamarin.AndroidX.SavedState"
-	.size	.L.map_aname.13, 28
+	.asciz	"Xamarin.Google.Android.Material"
+	.size	.L.map_aname.13, 32
 
 	.section	.rodata.map_aname.14,"aMS",@progbits,1
 	.type	.L.map_aname.14, @object
 .L.map_aname.14:
-	.asciz	"Xamarin.Google.Android.Material"
-	.size	.L.map_aname.14, 32
+	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.size	.L.map_aname.14, 30
 
 	.section	.rodata.map_aname.15,"aMS",@progbits,1
 	.type	.L.map_aname.15, @object
 .L.map_aname.15:
-	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.asciz	"Xamarin.AndroidX.RecyclerView"
 	.size	.L.map_aname.15, 30
 
 	.section	.rodata.map_aname.16,"aMS",@progbits,1
 	.type	.L.map_aname.16, @object
 .L.map_aname.16:
-	.asciz	"Xamarin.AndroidX.RecyclerView"
-	.size	.L.map_aname.16, 30
+	.asciz	"DirectChat.Android"
+	.size	.L.map_aname.16, 19
 
 	.section	.rodata.map_aname.17,"aMS",@progbits,1
 	.type	.L.map_aname.17, @object
