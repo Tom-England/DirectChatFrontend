@@ -28,7 +28,8 @@ namespace DirectChat
             BindingContext = mlm;
             welcome.Text = name;
             if (App.target_ip == "not set") { 
-                submit.IsEnabled = false; 
+                submit.IsEnabled = false;
+                submit.BackgroundColor = Color.Red;
                 
             }
 

@@ -66,8 +66,17 @@ namespace DirectChat
             if (Guid.TryParse(GuidBox.Text, out guid))
             {
                 while (!App.can_send) { }
+                App.can_send = false;
                 Network.User.UserTransferable uT = App.c.request_user(guid, App.c.client);
                 App.c.dbh.add_user(uT.name, uT.id, uT.key);
+                MessageController messageController = new MessageController();
+                messageController.new_user_msg();
+                UserField.IsVisible = false;
+                App.can_send = true;
+            }
+            else
+            {
+                Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! INVALID ID !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
             }
         }
 
@@ -76,8 +85,7 @@ namespace DirectChat
             App.target_ip = ServerEntry.Text;
             App.c.create_client(App.target_ip);
             App.c.handshake(App.c.client, App.user, App.crypto);
-            Thread thread = new Thread(start: App.run_requests);
-            thread.Start();
+            App.thread.Start();
             AddServer.IsVisible = false;
             AddUser.IsVisible = false;
             ServerField.IsVisible = false;

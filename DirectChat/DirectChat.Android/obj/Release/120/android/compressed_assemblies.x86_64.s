@@ -16,7 +16,7 @@
 
 	/* 1: DirectChat.dll */
 	/* uncompressed_file_size */
-	.long	54784
+	.long	58880
 	/* loaded */
 	.byte	0
 	/* data */
@@ -52,7 +52,7 @@
 
 	/* 5: Mono.Android.dll */
 	/* uncompressed_file_size */
-	.long	2152448
+	.long	2155008
 	/* loaded */
 	.byte	0
 	/* data */
@@ -367,7 +367,7 @@
 
 	/* 40: Xamarin.Essentials.dll */
 	/* uncompressed_file_size */
-	.long	26112
+	.long	26624
 	/* loaded */
 	.byte	0
 	/* data */
