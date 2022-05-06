@@ -32,7 +32,11 @@ namespace DirectChat
                 submit.BackgroundColor = Color.Red;
                 
             }
+            scroll_to_end();
+        }
 
+        void scroll_to_end()
+        {
             object lastItem = MessageList.ItemsSource.Cast<object>().LastOrDefault();
 
             MessageList.ScrollTo(lastItem, ScrollToPosition.End, false);

@@ -1,10 +1,5 @@
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\DirectChat.Android.dll
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\DirectChat.Android.pdb
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\com.companyname.directchat.apk
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\com.companyname.directchat.aab
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\com.companyname.directchat-Signed.aab
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\com.companyname.directchat-Signed.apk
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\com.companyname.directchat-Signed.apk.idsig
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\DirectChat.dll
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\DirectChat.pdb
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\MonoAndroid,Version=v12.0.AssemblyAttributes.cs
@@ -35,10 +30,7 @@ E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\Dir
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\DirectChat.Android.csproj.CopyComplete
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\DirectChat.Android.dll
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\DirectChat.Android.pdb
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\android\bin\com.companyname.directchat.apk
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\android\bin\base.zip
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\android\bin\com.companyname.directchat.aab
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\android\bin\com.companyname.directchat.apks
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\res\values\styles.xml
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\res\values\colors.xml
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\res\mipmap-anydpi-v26\icon.xml
@@ -640,3 +632,12 @@ E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\and
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\android\assets\System.Buffers.dll
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\android\assets\System.Memory.dll
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\com.tomengland.directchat.apk
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\com.tomengland.directchat.aab
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\com.tomengland.directchat-Signed.aab
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\com.tomengland.directchat-Signed.apk
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Debug\com.tomengland.directchat-Signed.apk.idsig
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\android\bin\com.tomengland.directchat.apk
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\android\bin\com.tomengland.directchat.aab
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\android\bin\com.tomengland.directchat.apks
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Debug\120\android\src\com\tomengland\directchat\R.java

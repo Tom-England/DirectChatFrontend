@@ -23,8 +23,8 @@
 	.section	.rodata.env.str.1,"aMS",%progbits,1
 	.type	.L.env.str.1, %object
 .L.env.str.1:
-	.asciz	"com.companyname.directchat"
-	.size	.L.env.str.1, 27
+	.asciz	"com.tomengland.directchat"
+	.size	.L.env.str.1, 26
 	.section	.data.application_config,"aw",%progbits
 	.type	application_config, %object
 	.p2align	2
@@ -99,7 +99,7 @@ mono_aot_mode_name:
 	.section	.rodata.env.str.8,"aMS",%progbits,1
 	.type	.L.env.str.8, %object
 .L.env.str.8:
-	.asciz	"74da305a-8af5-4e2d-a55c-e5a0453ddd8d"
+	.asciz	"7083ab99-1cd3-485d-be11-73814354783f"
 	.size	.L.env.str.8, 37
 	.section	.rodata.env.str.9,"aMS",%progbits,1
 	.type	.L.env.str.9, %object

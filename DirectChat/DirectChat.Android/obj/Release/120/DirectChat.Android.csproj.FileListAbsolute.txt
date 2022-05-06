@@ -1,10 +1,5 @@
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\DirectChat.Android.dll
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\DirectChat.Android.pdb
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\com.companyname.directchat.apk
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\com.companyname.directchat.aab
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\com.companyname.directchat-Signed.aab
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\com.companyname.directchat-Signed.apk
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\com.companyname.directchat-Signed.apk.idsig
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\DirectChat.dll
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\DirectChat.pdb
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\MonoAndroid,Version=v12.0.AssemblyAttributes.cs
@@ -44,10 +39,7 @@ E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\D
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\DirectChat.Android.csproj.CopyComplete
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\DirectChat.Android.dll
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\DirectChat.Android.pdb
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\bin\com.companyname.directchat.apk
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\bin\base.zip
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\bin\com.companyname.directchat.aab
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\bin\com.companyname.directchat.apks
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\res\values\styles.xml
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\res\values\colors.xml
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\res\mipmap-anydpi-v26\icon.xml
@@ -445,7 +437,6 @@ E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\a
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\src\mono\com\google\android\material\tabs\TabLayout_BaseOnTabSelectedListenerImplementor.java
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\src\mono\MonoPackageManager_Resources.java
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\bin\packaged_resources
-E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\src\com\companyname\directchat\R.java
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\compressed_assemblies.arm64-v8a.s
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\compressed_assemblies.armeabi-v7a.s
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\compressed_assemblies.x86.s
@@ -474,3 +465,12 @@ E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\s
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\stamp\_GenerateJavaStubs.stamp
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\stamp\_GeneratePackageManagerJava.stamp
 E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\stamp\_ResolveLibraryProjectImports.stamp
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\com.tomengland.directchat.apk
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\com.tomengland.directchat.aab
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\com.tomengland.directchat-Signed.aab
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\com.tomengland.directchat-Signed.apk
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\bin\Release\com.tomengland.directchat-Signed.apk.idsig
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\bin\com.tomengland.directchat.apk
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\bin\com.tomengland.directchat.aab
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\bin\com.tomengland.directchat.apks
+E:\DirectChatFrontend\DirectChat\DirectChat\DirectChat.Android\obj\Release\120\android\src\com\tomengland\directchat\R.java
